@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>RA Medical Clinic</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f7f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #087f8c;
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 900px;
+        margin: 30px auto;
+    }
+
+    .card {
+        background-color: white;
+        padding: 25px;
+        margin-bottom: 25px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h2 {
+        color: #087f8c;
+        border-bottom: 2px solid #087f8c;
+        padding-bottom: 10px;
+    }
+
+    label {
+        display: block;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    button {
+        margin-top: 20px;
+        background-color: #087f8c;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #055f68;
+    }
+
+    .doctor-info {
+        line-height: 1.8;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #087f8c;
+        color: white;
+        padding: 15px;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<header>
+    <h1>RA Medical Clinic</h1>
+    <p>Patient & Doctor Information</p>
+</header>
+
+<div class="container">
+
+    <!-- PATIENT INFORMATION -->
+    <div class="card">
+
+        <h2>Patient Information</h2>
+
+        <form>
+
+            <label>Patient Full Name</label>
+            <input type="text" placeholder="Enter patient name">
+
+            <label>Date of Birth</label>
+            <input type="date">
+
+            <label>Gender</label>
+            <select>
+                <option>Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter phone number">
+
+            <label>Address</label>
+            <input type="text" placeholder="Enter address">
+
+            <label>Medical History</label>
+            <textarea placeholder="Enter patient's medical history"></textarea>
+
+            <label>Allergies</label>
+            <textarea placeholder="Enter known allergies"></textarea>
+
+            <label>Current Medication</label>
+            <textarea placeholder="Enter current medication"></textarea>
+
+            <button type="submit">
+                Save Patient Information
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- DOCTOR INFORMATION -->
+    <div class="card">
+
+        <h2>Doctor Information</h2>
+
+        <div class="doctor-info">
+
+            <p>
+                <strong>Doctor Name:</strong>
+                Dr.Nanyonga Aisha 
+
+            </p>
+
+            <p>
+                <strong>Specialization:</strong>
+                General Practitioner
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+                +256 701295667
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                drAisha@ramedicalclinic.com
+            </p>
+
+            <p>
+                <strong>Consultation Hours:</strong>
+                Monday - Friday, 8:00 AM - 5:00 PM
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
